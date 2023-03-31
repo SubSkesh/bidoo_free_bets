@@ -1,0 +1,8 @@
+# Python
+project/__pycache__
+
+# Secrets
+config
+
+# Logs
+logs
