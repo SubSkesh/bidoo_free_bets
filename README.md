@@ -1,6 +1,6 @@
 # Bidoo Free Bets
 
-### Project Tree
+## 🌳 - Project Tree
 ```
 ├── config
 │   ├── config.cfg
@@ -18,18 +18,19 @@
 
 ```
 
-🐍 Python -V = 3.10
+## 🐍 - Python
+	--version >= 3.10
 -------
 
-## What is Bidoo?
+## 🎰 - What is Bidoo?
 
 Bidoo is a digital auction site that allows you to bid and relaunch in order to win various types of objects and thanks to which you can get up to 99% savings. For purchases of this type, Bidoo is the number one platform in Italy.
 
-## Free Bets
+## 🎁 - Free Bets
 
 Bidoo donates about 10-12 bets every day, through different channels (Email, Web Push Notification and SMS), so I felt the need to automate the collection of these bets with a python and crontab script.
 
-## How the script works?
+## 🛠️ - How the script works?
 
 1 - Reads and takes bets from different channels (Web Push Notification, Email ...) and enters them in a dictionary.
 
@@ -39,10 +40,13 @@ Bidoo donates about 10-12 bets every day, through different channels (Email, Web
 
 4 - Cleans the log file and mailbox
 
-## Using Crontab
+## ⏰ - Using Crontab
 
 To fully automate this process, on Linux you can use Crontab, this tool is used to schedule the execution of scripts at certain times.
 
-## TODO
+## 📝 - TODO
 
 - [ ] Add support for Email and SMS
+
+## ⚖️ - License
+See [LICENSE](LICENSE)
